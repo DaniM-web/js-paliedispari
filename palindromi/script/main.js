@@ -24,7 +24,7 @@ btn.addEventListener('click',
     console.log("l'array invertito è: " + revArr);
     //trasformo nuovamente l'array in una stringa
     word2 = revArr.join('');
-    console.log("la stringa revertata diventa: " + word2);
+    console.log("la strina revertata diventa: " + word2);
 
     // condizioni in cui una parola è palindroma
     if (word2 === word1 && word1.length != 0 ) {
